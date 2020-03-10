@@ -90,21 +90,26 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  margin-top: -20px;
-  max-height: 125px;
+  margin-top: -18px;
+  max-height: 80px;
   transition: all 0.4s ease-in-out;
 }
 
-#header.header-scrolled .logo img {
+/* #header.header-scrolled .logo img {
   margin-top: -18px;
   max-height: 80px;
-}
+} */
 
 
 @media (max-width: 992px) {
   #header {
-    background: rgba(255, 255, 255, 0.95);
+    background: #0c0c0c;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  #header .logo img {
+    margin-top: -12px;
+    max-height: 70px;
   }
 }
 
@@ -248,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #5777ba;
+  color: #FFF;
 }
 
 .mobile-nav {
@@ -259,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #0c0c0c;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -276,14 +281,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #47536e;
+  color: #FFF;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #5777ba;
+  color: #8e8e8e;
   text-decoration: none;
 }
 
