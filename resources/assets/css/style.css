@@ -200,7 +200,7 @@ h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: #000000e6;
+  background-color: #000000a2;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -910,6 +910,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts .facts-img {
   text-align: center;
   padding-top: 30px;
+}
+
+#facts .facts-img img {
+  max-height: 350px;
 }
 
 /* Portfolio Section
