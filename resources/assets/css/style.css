@@ -281,6 +281,24 @@ h6 {
   transform: translate3d(0, 0, 0);
 }
 
+/* #intro .carousel-item {
+  background-image: none !important;
+} */
+
+#intro .carousel-item .carousel-background {
+  display: none;
+}
+
+#intro .carousel-item .carousel-video {
+  height: 100%;
+}
+
+#intro .carousel-item .carousel-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #intro .carousel-control-prev,
 #intro .carousel-control-next {
   width: 10%;
